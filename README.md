@@ -10,6 +10,20 @@ Admin Login DATA
 
 **password** - _v1eWeR123_
 
-Install for using Django
+**INSTALLING PROCESS**
+
+Install the last python
+
+Set virtual environment and PATH
+
+Update pip
 
 py -m pip install Django
+
+pip install django-cleanup
+
+pip install Pillow
+
+pip install whitenoise
+
+pip install django-debug-toolbar
