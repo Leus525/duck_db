@@ -3,9 +3,9 @@
 
 {% block title %}Duck's admin | {% endblock %}
 
-
+{% load static %}
 {% block extrahead %}
- <link rel="icon" type="image/x-icon" href="/media/assets/favicon/favicon.ico">
+ <link rel="icon" type="image/x-icon" href="{% static 'favicon/favicon.ico' %}">
 {% endblock %}
 
 {% block branding %}
