@@ -16,3 +16,6 @@ class Items(models.Model):
         verbose_name = 'Duck'
         verbose_name_plural = 'Ducks'
         ordering = ['title']
+        permissions = (
+            ('read_item','Can read item'),
+        )

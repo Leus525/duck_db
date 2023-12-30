@@ -20,6 +20,7 @@ from django.contrib import admin
 from django.urls import path, include
 urlpatterns = [
     path('secretary/', admin.site.urls, name="admin:index"),
+    path("__debug__/", include("debug_toolbar.urls")),
     path('', include('items.urls')),
 ]
 if settings.DEBUG:

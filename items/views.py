@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.generic import ListView
 # Create your views here.
 from .models import Items
-def index(request):
-        print(request)
-        items = Items.objects.all()
-        return render(request, template_name='items/index.html', context={'items': items})
 
+class DucksItems(ListView):
+        model = Items
+        def get_queryset(self):
+                return Items.objects.filter(is_published=True)
 
 def insert(request):
         return HttpResponse('hi')

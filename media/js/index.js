@@ -16,8 +16,13 @@ searchInput.addEventListener("input", e => {
         duck.par.classList.toggle("hide", !isVis)
     })
 })
-/*
-for(let i = 0; i<arr.length; i++){
-    console.log(arr[i].innerText);
-}*/
-
+window.onscroll = function() {getMyStickyHeader()};
+var navbar = document.getElementById("navbar");
+var stickyHeader = navbar.offsetTop;
+function getMyStickyHeader() {
+if (window.pageYOffset >= stickyHeader) {
+navbar.classList.add("stickyHeader")
+} else {
+navbar.classList.remove("stickyHeader");
+}
+}
