@@ -1,0 +1,13 @@
+
+{% extends "admin/base.html"%}
+
+{% block title %}Duck's admin | {% endblock %}
+
+
+{% block extrahead %}
+ <link rel="icon" type="image/x-icon" href="/media/assets/favicon/favicon.ico">
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Duck's admin</a></h1>
+{% endblock %}
