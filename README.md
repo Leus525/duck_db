@@ -10,3 +10,6 @@ Admin Login DATA
 
 **password** - _v1eWeR123_
 
+Install for using Django
+
+py -m pip install Django
