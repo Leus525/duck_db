@@ -8,3 +8,11 @@ class Items(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     photo = models.ImageField(upload_to='photos/')
     is_published = models.BooleanField()
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = 'Duck'
+        verbose_name_plural = 'Ducks'
+        ordering = ['title']
