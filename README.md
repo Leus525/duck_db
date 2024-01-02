@@ -27,3 +27,9 @@ pip install Pillow
 pip install whitenoise
 
 pip install django-debug-toolbar
+
+py manage.py runserver
+
+**if runserver doesn't work try bottom one**
+
+py manage.py runserver localhost:8080
