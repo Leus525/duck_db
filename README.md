@@ -18,7 +18,7 @@ Set virtual environment and PATH
 
 Update pip
 
-py -m pip install Django
+pip install Django==5.0
 
 pip install django-cleanup
 
