@@ -1,6 +1,7 @@
 # duck_db
 data base of ducks
 
+![slika](https://github.com/Leus525/duck_db/assets/32685789/ff1669ca-6adc-4b59-a3d5-f5eca5d15ad8)
 
  button to admin page === ![image](https://github.com/Leus525/duck_db/assets/32685789/a11eb5e9-398e-4294-b93c-94a7a123db2c)
 
